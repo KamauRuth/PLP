@@ -1,0 +1,6 @@
+This is line 1
+12345
+Python File Handling
+Additional line 1
+67890
+Appending to an existing file
