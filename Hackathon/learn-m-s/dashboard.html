@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/course-content">Course Content</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome-message">
+            <h2>Hello, <span id="user-fullname"></span>!</h2>
+            <p>Welcome to your personalized dashboard.</p>
+        </section>
+        <section id="courses">
+            <h2>Your Courses</h2>
+            <!-- Display list of enrolled courses -->
+            <ul>
+                <li>Course 1</li>
+                <li>Course 2</li>
+                <!-- Add more courses dynamically based on user's enrollment -->
+            </ul>
+        </section>
+        
+        <section id="assignments">
+            <h2>Upcoming Assignments</h2>
+            <!-- Display upcoming assignments -->
+            <ul>
+                <li>Assignment 1</li>
+                <li>Assignment 2</li>
+                <!-- Add more assignments dynamically based on user's enrolled courses -->
+            </ul>
+        </section>
+        
+        <section id="grades">
+            <h2>Your Grades</h2>
+            <!-- Display grades for completed assignments -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Assignment</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Assignment 1</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Assignment 2</td>
+                        <td>B+</td>
+                    </tr>
+                    <!-- Add more rows for additional assignments -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <div class="footer">
+    <footer>
+        <p>&copy; 2024 Your LMS</p>
+    </footer>
+    </div>
+
+    <!-- Include your client-side JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
